@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #bbb;
+}
+
+.container .informacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nome, .imformacao, .imagem {
+    padding-bottom: 20px;
+}
+
+.imagem img {
+    width: 700px;
+    height: 300px;
+}
+
+section .titulo-principal {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+section .historia ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.leia {
+    text-align: center;
+    
+}
